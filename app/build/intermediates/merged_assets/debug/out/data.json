@@ -1,0 +1,146 @@
+[
+  {
+    "ScreenName": "LoginController",
+    "ScreenHeader": "User Login & Registration",
+    "Fields": [
+      {
+        "fieldType": "Image",
+        "imageName": "logo",
+        "padding": true,
+        "url":"",
+        "size":[ {"width":10, "heiht":10}],
+        "position":[{"x":350, "y":700}]
+
+      },
+      {
+        "fieldType": "EditText",
+        "placeHolder": "User name",
+        "text": "User name",
+        "keyBoardType": "Character",
+        "size":[{"width":700,"heiht":100 ,"vHeight": 500,"hWidth": 500}],
+        "position":[{"x":350, "y":700}]
+      },
+      {
+        "fieldType": "EditText",
+        "placeHolder": "Password",
+        "text": "Name",
+        "keyBoardType": "Character",
+        "size":[{"width":700,"heiht":100 ,"vHeight": 700,"hWidth": 700}],
+        "position":[{"x":350, "y":700}]
+      },
+      {
+        "fieldType": "TextField",
+        "placeHolder": "Enter user name",
+        "text": "Name",
+        "keyBoardType": "Character",
+        "size":[{"width":200,"heiht":100 ,"vHeight": 700, "hWidth": 500}],
+        "position":[{"x":0, "y":0}]
+      },
+      {
+        "fieldType": "TextField",
+        "placeHolder": "Enter password",
+        "maskingChar": "*",
+        "keyBoardType": "Character",
+        "size":[{"width":200,"heiht":100 ,"vHeight": 700, "hWidth": 500}],
+        "position":[{"x":0, "y":0}]
+      },
+      {
+        "fieldType": "Button",
+        "title": "Login",
+        "size":[{"width":700,"heiht":100 ,"vHeight": 900, "hWidth": 200}],
+        "position":[{"x":0, "y":0}]
+      }
+    ],
+    "navigationLink": [{
+      "Source":"LoginController",
+      "Destination":"DashBoardViewController",
+      "onAction": "PushToDashBoard"
+    }]
+  },
+  {
+    "ScreenName": "DashBoardController",
+    "ScreenHeader": "User Dashboard",
+    "LabelFields": [
+      {
+        "fieldType": "Text",
+        "title": "Test User"
+      },
+      {
+        "fieldType": "Text",
+        "title": "Savings account"
+      },
+      {
+        "fieldType": "Text",
+        "title": "Balance"
+      },
+      {
+        "fieldType": "Text",
+        "title": "9876543256785"
+      },
+      {
+        "fieldType": "Text",
+        "title": "RS. 100000"
+      }
+    ],
+    "Fields": [
+
+      {
+        "fieldType": "Button",
+        "title": "Accounts",
+        "imageName":"account"
+      },
+      {
+        "fieldType": "Button",
+        "title": "Credit Cards",
+        "imageName": "credit_cards"
+      },
+      {
+        "fieldType": "Button",
+        "title": "Debit Cards",
+        "imageName":"moneyfd"
+
+      },
+      {
+        "fieldType": "Button",
+        "title": "Loans",
+        "imageName":"loans"
+      },
+      {
+        "fieldType": "Button",
+        "title": "UPI",
+        "imageName":"upi"
+
+      },
+      {
+        "fieldType": "Button",
+        "title": "Grab Deals",
+        "imageName":"deals"
+      }
+    ,
+      {
+        "fieldType": "Button",
+        "title": "Mutual Funds",
+        "imageName":"mutualfund"
+      },
+      {
+        "fieldType": "Button",
+        "title": "Demat",
+        "imageName":"demat"
+      },
+      {
+        "fieldType": "Button",
+        "title": "Forex cards",
+        "imageName": "forex"
+      }
+    ],
+    "navigationLink": [{
+      "Source":"DashBoardViewController",
+      "Destination":"SummaryController",
+      "onAction": "PushToSummary"
+    }]
+  }
+]
+
+
+
+
